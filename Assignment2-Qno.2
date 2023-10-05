@@ -1,0 +1,20 @@
+print('nishanth')
+pribnt(192211678)
+topper1 = ("mani", 98, ("Math", 99), ("Science", 97))
+topper2 = ("bunny", 95, ("Math", 97), ("Science", 94))
+toppers_list = [topper1, topper2]
+def print_toppers_details(toppers):
+    for idx, topper in enumerate(toppers, 1):
+        name, overall_score, subject1, subject2 = topper
+        print(f"Topper {idx}:")
+        print(f"Name: {name}")
+        print(f"Overall Score: {overall_score}")
+        print(f"Subject 1: {subject1[0]} - Score: {subject1[1]}")
+        print(f"Subject 2: {subject2[0]} - Score: {subject2[1]}")
+        print()
+print("Initial Toppers' Details:")
+print_toppers_details(toppers_list)
+topper1 = ("John Smith", 99, ("Math", 100), ("Science", 98))
+toppers_list[0] = topper1
+print("Updated Toppers' Details:")
+print_toppers_details(toppers_list)
