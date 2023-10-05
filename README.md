@@ -1,1 +1,3 @@
-# CSA0803-PYTHON-PROGRAMMING
+word = "GRAPHICS"
+for char in word:
+    print(char)
